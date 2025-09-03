@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Balance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🏦 Digital Bank</h1>
+        <div class="balance">
+            <h2>Current Balance</h2>
+            <div id="balance-txt"></div>          
+        </div>
+        <div class="transaction">
+            <h2>Make a Transaction</h2>
+            <div>
+                <h3>Deposit Amount</h3>
+                <input type="number" min="0" id="deposit-amt">
+                <button id="deposit-btn">Deposit</button>
+                <div id="deposit-error" class="error-msg"></div>
+                <h3>Withdraw Amount</h3>
+                <input type="number" min="0" id="withdraw-amt">
+                <button id="withdraw-btn">Withdraw</button>
+                <div id="withdraw-error" class="error-msg"></div>
+            </div>
+            <!-- Transaction history -->
+             <div class="bg-white rounded-xl shadow-custom p-6">
+                <h2 class="text-lg font-semibold text-gray-800 mb-4">Recent Transactions</h2>
+                <div id="transactionList">
+                    <div class="text-center text-gray-500 py-4">
+                        <p>No transactions yet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
