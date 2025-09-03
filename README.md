@@ -18,6 +18,6 @@ It allows users to deposit and withdraw money, updates balance in real-time, and
 
 ## 🌐 Live Demo
 
-👉 [Click here to view the site]([https://your-username.github.io/digital-bank/](https://adinathmk.github.io/Digital-Bank/))  
+👉 [Click here to view the site]([https://adinathmk.github.io/Digital-Bank/])  
 
 
